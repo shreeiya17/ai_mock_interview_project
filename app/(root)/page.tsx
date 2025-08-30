@@ -40,7 +40,7 @@ const page = () => {
             <InterviewCard {...interview} key={interview.id}/>
           ))}
 
-          <p>You havent't taken any interviews yet</p>
+        {/* <p>You havent't taken any interviews yet</p> */}
         </div>
       </section>
     </>
